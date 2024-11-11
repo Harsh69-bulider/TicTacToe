@@ -19,6 +19,8 @@ Currently you can only play 2 player mode and Human v/s Robot in this. Soon i'll
 + *Added Human v/s Robot feature*
 ### *14 April 2022*
 + *Fixed a minor bug*
+### *11 November 2024:*
++ *For some reasons, things weren't working, some includes missing and fixed few bugs, now it works*
 # Installation
 To use this game,
 + Clone this repository by typing ```git clone https://github.com/ash-dodek/TicTacToe.git```

@@ -16,7 +16,7 @@ bool playerTwo(char board[3][3], string p1, string p2){
         switch (m2){
         case 1:
             if (board[0][0]=='-') {
-                board[0][0]={'O'};
+                board[0][0]='O';
                 clr();
                 cout
                     <<"\t\t\t\t\t\t\t"<<board[0][0]<<" | "<<board[0][1]<<" | "<<board[0][2]<<"\n"
@@ -36,7 +36,7 @@ bool playerTwo(char board[3][3], string p1, string p2){
             
         case 2:
             if (board[0][1]=='-') {
-                board[0][1]={'O'};
+                board[0][1]='O';
                 clr();
                 cout
                     <<"\t\t\t\t\t\t\t"<<board[0][0]<<" | "<<board[0][1]<<" | "<<board[0][2]<<"\n"
@@ -55,7 +55,7 @@ bool playerTwo(char board[3][3], string p1, string p2){
             
         case 3:
             if (board[0][2]=='-'){
-                board[0][2]={'O'};
+                board[0][2]='O';
                 clr();
                 cout
                     <<"\t\t\t\t\t\t\t"<<board[0][0]<<" | "<<board[0][1]<<" | "<<board[0][2]<<"\n"
@@ -73,7 +73,7 @@ bool playerTwo(char board[3][3], string p1, string p2){
             
         case 4:
             if (board[1][0]=='-'){
-                board[1][0]={'O'};
+                board[1][0]='O';
                 clr();
                 cout
                     <<"\t\t\t\t\t\t\t"<<board[0][0]<<" | "<<board[0][1]<<" | "<<board[0][2]<<"\n"
@@ -91,7 +91,7 @@ bool playerTwo(char board[3][3], string p1, string p2){
             
         case 5:
             if (board[1][1]=='-'){
-                board[1][1]={'O'};
+                board[1][1]='O';
                 clr();
                 cout
                     <<"\t\t\t\t\t\t\t"<<board[0][0]<<" | "<<board[0][1]<<" | "<<board[0][2]<<"\n"
@@ -109,7 +109,7 @@ bool playerTwo(char board[3][3], string p1, string p2){
             
         case 6:
             if (board[1][2]=='-'){
-                board[1][2]={'O'};
+                board[1][2]='O';
                 clr();
                 cout
                     <<"\t\t\t\t\t\t\t"<<board[0][0]<<" | "<<board[0][1]<<" | "<<board[0][2]<<"\n"
@@ -127,7 +127,7 @@ bool playerTwo(char board[3][3], string p1, string p2){
             
         case 7:
             if (board[2][0]=='-'){
-                board[2][0]={'O'};
+                board[2][0]='O';
                 clr();
                 cout
                     <<"\t\t\t\t\t\t\t"<<board[0][0]<<" | "<<board[0][1]<<" | "<<board[0][2]<<"\n"
@@ -145,7 +145,7 @@ bool playerTwo(char board[3][3], string p1, string p2){
             
         case 8:
             if (board[2][1]=='-'){ 
-                board[2][1]={'O'};
+                board[2][1]='O';
                 clr();
                 cout
                     <<"\t\t\t\t\t\t\t"<<board[0][0]<<" | "<<board[0][1]<<" | "<<board[0][2]<<"\n"
@@ -164,7 +164,7 @@ bool playerTwo(char board[3][3], string p1, string p2){
             
         case 9:
             if (board[2][2]=='-'){
-                board[2][2]={'O'};
+                board[2][2]='O';
                 clr();
                 cout
                     <<"\t\t\t\t\t\t\t"<<board[0][0]<<" | "<<board[0][1]<<" | "<<board[0][2]<<"\n"
